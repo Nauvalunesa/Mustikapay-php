@@ -1,0 +1,31 @@
+{
+    "name": "mustikapay/mustikapay-php",
+    "description": "SDK Resmi PHP untuk MustikaPay API - Mendukung QRIS, Virtual Account, dan Payout",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "MustikaPay Team",
+            "email": "admin@mustikapayment.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "MustikaPay\\": "src/"
+        }
+    },
+    "keywords": [
+        "mustikapay",
+        "payment gateway",
+        "qris",
+        "virtual account",
+        "payout",
+        "indonesia",
+        "fintech"
+    ]
+}
